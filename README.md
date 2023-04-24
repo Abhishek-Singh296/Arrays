@@ -33,5 +33,36 @@ int main()
 
 ---
 
-## __Code-1__
+## __Code-1I__
 ```
+//Array Value at index-i
+
+#include <stdio.h>
+int main()
+{
+	int i;
+	printf("Enter the array index number:");
+	scanf("%d", &i);
+	if(i<5)
+	{
+	int x[5]={2,10,15,17,21};
+	printf("%d", x[i]);
+	}
+	else
+	{
+		printf("Enter Value between 0 & 4:");
+	}
+	return 0;
+}
+```
+
+---
+
+## __Output-I__
+![Screenshot 2023-04-11 152649](https://user-images.githubusercontent.com/113619312/234037470-802e5d09-7343-4257-b27f-f1292b4c4c34.png)
+
+---
+
+## __Code-II__
+```
+
